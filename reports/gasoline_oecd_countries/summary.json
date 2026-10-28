@@ -1,0 +1,26 @@
+{
+  "panel": "gasoline_oecd_countries",
+  "markets": 18,
+  "years": [
+    1960,
+    1978
+  ],
+  "origins": [
+    1966,
+    1977
+  ],
+  "decision_date": 1971,
+  "forecasts": 6480,
+  "evaluation_rows_per_model": 450,
+  "best_model_by_fva": "naive",
+  "winner_counts": {
+    "drift": 5,
+    "damped_trend": 5,
+    "pooled_gbm": 3,
+    "ensemble": 2,
+    "pooled_drivers_known": 2,
+    "naive": 1
+  },
+  "share_winner_matches_expost_best": 0.05555555555555555,
+  "share_markets_where_leaky_selection_changes_winner": 0.6111111111111112
+}

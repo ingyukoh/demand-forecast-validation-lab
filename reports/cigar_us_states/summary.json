@@ -1,0 +1,26 @@
+{
+  "panel": "cigar_us_states",
+  "markets": 46,
+  "years": [
+    1963,
+    1992
+  ],
+  "origins": [
+    1972,
+    1991
+  ],
+  "decision_date": 1981,
+  "forecasts": 36846,
+  "evaluation_rows_per_model": 2070,
+  "best_model_by_fva": "drift",
+  "winner_counts": {
+    "naive": 16,
+    "ensemble": 13,
+    "damped_trend": 6,
+    "pooled_gbm": 5,
+    "drift": 4,
+    "pooled_drivers_known": 2
+  },
+  "share_winner_matches_expost_best": 0.021739130434782608,
+  "share_markets_where_leaky_selection_changes_winner": 0.32608695652173914
+}
